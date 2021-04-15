@@ -3,7 +3,7 @@ This script is used to create your own chatbot, as the entity that is going to r
 
 ## Basics
 Basically, you use two classes: the HChatBot, that holds all the conversation cases, and the HDialogue, that composes each dialogue.
-To use it, instantiate a HChatBot clas
+To use it, instantiate a HChatBot class:
 ```CSharp
 HChatBot chat = new HChatBot();
 ```
