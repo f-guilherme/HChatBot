@@ -11,10 +11,10 @@ Instantiate a HDialogue class:
 ```CSharp
 HDialogue diag1 = new HDialogue();
 ```
-And then add requests (incoming) and responses (outgoing):
+And then add requests (incoming) and responses (outgoing). You can have multiple responses for multiple requests (although they've got to have the same quantity):
 ```CSharp
-diag1.AddRequest("Hello");
-diag1.AddResponse("Hi! I'm a bot.");
+diag1.AddRequest("Hello", "Hi");
+diag1.AddResponse("Hello! I'm a bot.", "Hi! I'm a bot.");
 ```
 And finally, add the _diag1_ instance to our _chat_ instance:
 ```CSharp
